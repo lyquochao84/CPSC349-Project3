@@ -116,3 +116,27 @@ canvas {
 .lose-msg {
   color: #fe5152;
 }
+#about-us {
+  color: rgb(1, 73, 73);
+  display: grid;
+  position: relative;
+  justify-content: center;
+  bottom: -38.5rem;
+  padding: 5rem;
+}
+.about-us-text {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: larger;
+}
+.about-us-names {
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+/* Adding Gradient as Background */
+body {
+  background-image: linear-gradient(#6bc998, #a782eb);
+  background-size: 300% 300%;
+  height: 100%;
+}
